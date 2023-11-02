@@ -1,9 +1,9 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka,http://localhost:7004/eureka
-  instance:
-    instance-id: springcloud-provide-student8002
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka,http://localhost:7004/eureka
+#  instance:
+#    instance-id: springcloud-provide-student8002
 info:
   app:
     name: sz-springcloudprovide02
@@ -14,16 +14,14 @@ logging:
     com:
       blog: debug
     root: info
-mybatis:
-  mapper-locations: classpath:mybatis/mapper/*.xml
-  type-aliases-package: com.springcloud.provide02.pojo
-server:
-  port: 8002
-spring:
-  application:
-    name: provide-stu8002
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    password: Eplugger231
-    url: jdbc:mysql://localhost:3306/ribbonDb02?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
-    username: root
+
+#server:
+#  port: 8002
+#spring:
+#  application:
+#    name: provide-stu8002
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    password: Eplugger231
+#    url: jdbc:mysql://localhost:3306/ribbonDb02?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+#    username: root
