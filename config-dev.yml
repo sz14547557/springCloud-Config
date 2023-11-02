@@ -6,7 +6,7 @@
 #    instance-id: springcloud-provide-student8002
 info:
   app:
-    name: sz-springcloudprovide02
+    name: sz-springcloudConfig
   company:
     name: sz.study.com
 logging:
